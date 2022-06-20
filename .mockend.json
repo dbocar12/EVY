@@ -30,7 +30,7 @@
   "Product": {
     "productName": {
       "string": [
-          "Carte","Carte"
+          "Mobilité","Mobilité"
       ]
     },    
     "refClient": {
@@ -94,23 +94,6 @@
     
     "CurrencyKey": {"string":["EUR","EUR"]}
   
-  },
-  
-
-   "Fidelity": {
-     
-    "refClient": {
-      "regexp": "[a-c]{4}-[d-g]{4}\\-[h-z]{5,10}"
-    },
-    
-     "refCarte": {
-        "regexp": "[a-c]{4}-[d-g]{4}\\-[h-z]{5,10}"
-     },
-     
-    "nombrePoints": {
-      "int": { "min": 1, "max": 100}
-    }
-    
-  }  
+  } 
 
 }
