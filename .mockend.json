@@ -1,0 +1,116 @@
+{
+  "Customer": {
+    "firstName": {
+      "string": ["Laure","Clémence","Richard","Valérie","Aimée","Susanne","Michelle","Adrien-Thierry","Amélie","Suzanne-Pauline","Frédéric","Antoine","Adélaïde","Henriette","Louise","Paul","Céline","Sophie","Élodie","Sabine-Margot","Thierry","Théophile","Alix","Aurore","Benoît","Élodie-Audrey","Anastasie-Alexandrie","Paul","Éléonore-Bernadette","Stéphanie","Jacqueline","Nathalie","Sébastien","Alexandre","Gilbert","Noémi","Alexandrie","Franck","Valérie","Hortense-Alex","Antoine","Pauline","Eugène","Richard","Aurélie","Marianne","Maggie","Paul","Chantal","Marine","William","Thérèse-Colette","Patrick","André","Noémi","Pauline","Agnès","Simone","Nicole","Christiane","Pierre","Christiane","Antoine","Michel","Alexandre","Isabelle","Jérôme","Colette-Édith","Jérôme","Odette","Agathe-Pauline","Franck","Pierre","Lucy","Nicolas","Virginie","Sébastien-Luc","Emmanuelle","Claire","Guy","Claire","Noémi","Isaac","Philippine","Lorraine","Victor-Vincent","Roland","Alexandria","Jeannine","Michelle","Georges","Franck","Jules","Julien","Martin","Timothée","Adrien","Charles","Georges","Frédéric"]
+    },
+    "lastName": {
+        "string": ["Gay","Santos","Tessier","Leger-Pires","Delmas","Jacob","Coste","Gomez","Dufour","Lambert","Legros","Delahaye-Chretien","Andre","Guibert","Pons","Caron","Carpentier","Boulanger","Marty-Leroux","Goff","Pelletier","Pelletier","Guillon-Hernandez","Morel","Lebreton","Blanchard","Mary","Bernier","Techer","Costa","Chevalier","Loiseau","Perez","Bernier","Bailly","Pierre","Mallet","Boutin","Thomas-Philippe","Delmas","Gros","Chauvin","Tessier","Moulin","Courtois","Millet","Pottier-Allard","Moreno","Oliveira-Carpentier","Chevallier","Legrand","Diallo","Potier","Colas-Techer","Lejeune","Charles","Lemaire","Lelievre","Lopez","Barbe-Berger","Joly","Arnaud","Bigot","Pages","Godard","Guyon","Gay","Moulin","Dumont","Benard","Laine","David","Cohen-Grenier","Duhamel","Sousa","Pires","Vidal","Antoine","Fernandes-Becker","Guillot","David","Guichard","Pons","Rey","Simon","Adam","Clement","Jacques","Sousa-Marie","Peltier","Chartier","Goncalves","Marion","Lombard","Gosselin","Renard","Noel","Dubois","Arnaud-Boulanger","Martins"]
+    },
+
+    "email": {
+      "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+    },
+
+    "zipCode": {
+        "regexp":"^[75-98]{2}[0-9]{3}$"
+    },
+    
+    "address": {
+      "string": ["12 Rue du général joinville","2 Pl Corbo", "7 bis place de la résidence","14 Place de Torto","17 Pl Reflet ","18 Rue Gerando","166 Boulevard Macdonald"]
+    },
+    
+    "gender": {
+      "string": [
+        "Homme",
+        "Femme"
+      ]
+    }
+  },
+
+  "Product": {
+    "productName": {
+      "string": [
+          "Carte","Carte"
+      ]
+    },    
+    "refClient": {
+      "regexp": "[a-c]{4}-[d-g]{4}\\-[h-z]{5,10}"
+    },
+    "refProduct": {
+      "regexp": "[a-c]{4}-[d-g]{4}\\-[h-z]{5,10}"
+    },
+    
+    "unitPrice": {
+      "int": { "min": 20, "max": 90}
+    },
+    "available": {
+      "boolean": {}
+    },
+    
+    "description": {
+      "loremSentences": { "minLength": 100, "maxLength": 200 }
+     },
+    
+    "category": {
+      "string": [
+          "Fueling",
+          "Charging"
+      ]
+    },
+    
+    "placeType": {
+      "string": ["Station","Station"]
+    },
+ 
+    "placeTd": {
+       "string": ["TOT","Total"]
+    },
+  
+    "allowed": {
+      "boolean": {}
+    },   
+  
+    "address": {
+      "string": ["12 Rue du général joinville","2 Pl Corbo", "7 bis place de la résidence","14 Place de Torto","15 Pl Reflet ","18 Rue Gerando","166 Boulevard Macdonald"]
+    },
+    
+    "CurrencyKey": {"string":["EUR","EUR"]}
+  
+  },
+  
+   "Pricing": {
+     
+    "productList": {
+      "string": ["Basic S1","Premium S2", "Plus S3"]
+    },
+    
+     "idclient": {
+        "int": { "min": 1, "max": 100}
+     },
+     
+    "totalAmount": {
+      "int": { "min": 30, "max": 120}
+    },
+    
+    "CurrencyKey": {"string":["EUR","EUR"]}
+  
+  },
+  
+
+   "Fidelity": {
+     
+    "refClient": {
+      "regexp": "[a-c]{4}-[d-g]{4}\\-[h-z]{5,10}"
+    },
+    
+     "refCarte": {
+        "regexp": "[a-c]{4}-[d-g]{4}\\-[h-z]{5,10}"
+     },
+     
+    "nombrePoints": {
+      "int": { "min": 1, "max": 100}
+    }
+    
+  }  
+
+}
