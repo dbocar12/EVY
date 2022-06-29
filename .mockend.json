@@ -8,7 +8,7 @@
     },
 
     "email": {
-        "string": ["abcd@hotmail.com","abcd@gmail.com","abcd@cgi.com"]
+        "string": ["abc@cgi.com","abc@cgi.com","abc@cgi.com"]
     },
 
     "zipCode": {
