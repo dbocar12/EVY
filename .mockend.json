@@ -1,7 +1,7 @@
 {
   "Customer": {
     "firstName": {
-      "string": ["Roland","Guy","]
+      "string": ["Roland","Guy"]
     },
     "lastName": {
         "string": ["Lopez","Boutin"]
