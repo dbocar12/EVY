@@ -28,6 +28,9 @@
   },
 
   "Product": {
+    "typeClient" : {
+      "string" : ["premium","basic",""]
+    },
     "productName": {
       "string": [
           "Mobilité","Mobilité"
