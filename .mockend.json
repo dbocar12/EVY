@@ -21,8 +21,8 @@
     
     "gender": {
       "string": [
-        "Homme",
-        "Femme"
+        "Femme",
+        "Homme"
       ]
     }
   },
