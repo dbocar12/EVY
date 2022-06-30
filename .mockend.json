@@ -2,7 +2,7 @@
   "Customer": {
     
     "typeClient" : {
-      "string" : ["premium","basic",""]
+      "string" : ["premium",""]
     },
     
     "firstName": {
