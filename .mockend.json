@@ -1,5 +1,10 @@
 {
   "Customer": {
+    
+    "typeClient" : {
+      "string" : ["premium","basic",""]
+    },
+    
     "firstName": {
       "string": ["Roland","Guy"]
     },
@@ -28,9 +33,6 @@
   },
 
   "Product": {
-    "typeClient" : {
-      "string" : ["premium","basic",""]
-    },
     "productName": {
       "string": [
           "Mobilité","Mobilité"
