@@ -36,17 +36,12 @@
       "string": [
           "Elec","Gaz","SP95 (E10)"
       ]
-    },    
-    "refClient": {
-      "regexp": "[a-c]{4}-[d-g]{4}\\-[h-z]{5,10}"
-    },
-    "refProduct": {
-      "regexp": "[a-c]{4}-[d-g]{4}\\-[h-z]{5,10}"
     },
     
     "unitPrice": {
       "string": ["0.11","1.1","2.14"]
     },
+    
     "available": {
       "boolean": {}
     },
@@ -62,18 +57,6 @@
           "Fueling",
           "Charging"
       ]
-    },
-    
-    "placeType": {
-      "string": ["Station","Station"]
-    },
- 
-    "placeTd": {
-       "string": ["TOT","Total"]
-    }, 
-  
-    "address": {
-      "string": ["12 Rue du général joinville","2 Pl Corbo", "7 bis place de la résidence","14 Place de Torto","15 Pl Reflet ","18 Rue Gerando","166 Boulevard Macdonald"]
     }
   
   },
