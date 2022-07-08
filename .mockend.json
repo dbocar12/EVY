@@ -34,7 +34,7 @@
   "Product": {
     "productName": {
       "string": [
-          "Mobilité","Mobilité"
+          "Elec","Gaz","SP95 (E10)"
       ]
     },    
     "refClient": {
@@ -45,7 +45,7 @@
     },
     
     "unitPrice": {
-      "int": { "min": 20, "max": 90}
+      "int": { "min": 0.11, "max": 90}
     },
     "available": {
       "boolean": {}
