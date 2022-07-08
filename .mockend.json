@@ -52,7 +52,9 @@
     },
     
     "description": {
-      "loremSentences": { "minLength": 100, "maxLength": 200 }
+      "string": [ "Le prix moyen de l'électricité est de 0.11 € / Kwh chez TotalEnergies",
+                 "Le prix moyen du GNV (Gaz Naturel V) est de 1,10 € / litre chez TotalEnergies",
+                "Le prix moyen du SP95 (E10) est de 2,12€ /litre chez TotalEnergies "]
      },
     
     "category": {
@@ -68,17 +70,11 @@
  
     "placeTd": {
        "string": ["TOT","Total"]
-    },
-  
-    "allowed": {
-      "boolean": {}
-    },   
+    }, 
   
     "address": {
       "string": ["12 Rue du général joinville","2 Pl Corbo", "7 bis place de la résidence","14 Place de Torto","15 Pl Reflet ","18 Rue Gerando","166 Boulevard Macdonald"]
-    },
-    
-    "CurrencyKey": {"string":["EUR","EUR"]}
+    }
   
   },
   
